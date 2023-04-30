@@ -1,0 +1,26 @@
+Here I will be creating a map that I will be used to store the frequencty of each element in the correct word.
+Then after that when evver the user will press the enter button to go to the next attempt then I will first check if the word written so far is same as the correct word. 
+
+--iF YES THEN WE HAVE OUR ANSWER (THE WIM VARIBLE WILL BE SET TO TRUE AND GAMEOVER , User wins) AND MARK ALL THE LETTERS IN THAT GRID AS GREEN.
+
+ --IF NO THEN
+  --- WE ITERATE THE STRING AND FOR EACH CHARACTER FOUND WE CHECK IF IT IS PRESENT IN THE CORRECT WORD OR NOT.
+
+    ----IF YES THEN WE MARK IT AS YELLOW AND DECREASE ITS FREQUENCY ELSE WE MARK IT AS GRAY AND IT BECOMES UNUSABLE 
+    ----Here care has to be taken to make only those letters unusable which do not occur a single time. If we use a map here and we mark all the characters with zero freq as unusable then we will may also mark those character as unusable which occured in the string but their count has exhausted.
+
+--IF AVAL>6 then I will set loose variable as true and the gameover (user Lost)
+
+
+
+create a mp to store the aval and lpos color as symbols 
+
+need to add the feature which allows users to see the meaning of the correct word by clicking on the correct wors
+
+need to add the functionality of disables keys
+
+here the breakpoint is 593px
+
+add the arrow keys to change cursor position
+
+for the keys min 497

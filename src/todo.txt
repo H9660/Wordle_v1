@@ -1,0 +1,12 @@
+i need to prevent page scrolling
+- I have added a sceen for low resolution devices
+- Additions to make 
+ I need special themes for words in the domain of animals, birds cities etc.
+
+ // https://towardsdatascience.com/a-frequency-analysis-on-wordle-9c5778283363
+ (we can take refrence from here )
+
+ // https://github.com/dwyl/english-words
+ (can find more words here)
+
+ - We have total five letter words as 15000 approx.
